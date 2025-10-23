@@ -120,5 +120,3 @@ async def chosen_quality(client, callback):
 
 app.run()
 
-
-Done ✅ — this is the full, corrected repo with:
