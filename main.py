@@ -40,7 +40,6 @@ async def on_link(client, message):
     kb = InlineKeyboardMarkup([[InlineKeyboardButton('🎵 Audio', callback_data='type_audio'), InlineKeyboardButton('🎥 Video', callback_data='type_video')]])
     await message.reply_text('Select type:', reply_markup=kb)
 
-Monish▪️🥷, [23-10-2025 09:09]
 @app.on_callback_query(filters.regex('^check_join$'))
 async def check_join_cb(client, callback):
     uid = callback.from_user.id
